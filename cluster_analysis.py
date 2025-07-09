@@ -17,11 +17,9 @@ import matplotlib.pyplot as plt
 from sklearn.cluster import KMeans
 
 # reading csv into pandas dataframes
-female_2020= pd.read_csv('drive/My Drive/Colab Notebooks/finalyear/female_2020.csv')
+dataset= pd.read_csv('drive/My Drive/Colab Notebooks/data.csv')
 
-female_2020
-
-X=female_2020[["data_a","data_b","data_c","data_d","data_e","data_f","data_g","data_h","data_i","data_j"]]
+X=dataset[["data_a","data_b","data_c","data_d","data_e","data_f","data_g","data_h","data_i","data_j"]]
 
 X
 
